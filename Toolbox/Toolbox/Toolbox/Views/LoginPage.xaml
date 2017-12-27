@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Toolbox.Views.LoginPage"
+             xmlns:local="clr-namespace:Toolbox.Utilities;assembly=Toolbox"
+             BackgroundImage="Default-Portrait.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="UserNameEntry" Placeholder="{local:Translate UserName}"></Entry>
+            <Entry x:Name="PasswordEntry" Placeholder="{local:Translate Password}" IsPassword="True"></Entry>
+            <Button x:Name="LoginButton" Text="{local:Translate Login}"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
